@@ -1,5 +1,5 @@
-﻿RomanNumber roman1 = new("IX");
-RomanNumber roman2 = new("V");
+﻿RomanNumber roman1 = new("IXXXX");
+RomanNumber roman2 = new("IVIV");
 
 
-Console.WriteLine((roman1 - roman2).ToString());
+Console.WriteLine((roman1 + roman2).ToString());

@@ -1,9 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 public class RomanNumber
 {
+    private static readonly Regex validRomanPattern = new(@"^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$", RegexOptions.Compiled);
+
     private static readonly Dictionary<char, int> romanToInteger = new()
     {
         {'I', 1},
@@ -36,11 +39,21 @@ public class RomanNumber
 
     public RomanNumber(string roman)
     {
+        if (!IsValidRoman(roman))
+        {
+            throw new ArgumentException("Некорректное римское число", nameof(roman));
+        }
+
         integerValue = RomanToInteger(roman);
     }
 
     public RomanNumber(int integer)
     {
+        if (integer <= 0 || integer > 3999)
+        {
+            throw new ArgumentOutOfRangeException(nameof(integer), "Значение должно быть в диапазоне от 1 до 3999");
+        }
+
         integerValue = integer;
     }
 
@@ -95,4 +108,11 @@ public class RomanNumber
 
         return result;
     }
+
+   
+    private static bool IsValidRoman(string roman)
+    {
+        return validRomanPattern.IsMatch(roman);
+    }
+    
 }
