@@ -1,0 +1,14 @@
+C:\Users\avtus\VSProjects\r\bin\Debug\net7.0\r.exe
+C:\Users\avtus\VSProjects\r\bin\Debug\net7.0\r.deps.json
+C:\Users\avtus\VSProjects\r\bin\Debug\net7.0\r.runtimeconfig.json
+C:\Users\avtus\VSProjects\r\bin\Debug\net7.0\r.dll
+C:\Users\avtus\VSProjects\r\bin\Debug\net7.0\r.pdb
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.AssemblyInfoInputs.cache
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.AssemblyInfo.cs
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.csproj.CoreCompileInputs.cache
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.dll
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\refint\r.dll
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.pdb
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\r.genruntimeconfig.cache
+C:\Users\avtus\VSProjects\r\obj\Debug\net7.0\ref\r.dll
